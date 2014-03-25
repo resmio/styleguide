@@ -1,0 +1,21 @@
+{
+  "name": "resmio-styleguide",
+  "version": "0.0.1",
+  "authors": [
+    "Niels Sandholt Busch <niels@resmio.com>"
+  ],
+  "description": "The resmio style guide.",
+  "license": "MIT",
+  "homepage": "styleguide.resmio.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
