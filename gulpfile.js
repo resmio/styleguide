@@ -10,9 +10,11 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('markdown', function () {
+gulp.task('copy', function () {
     gulp.src('index.html')
     .pipe(gulp.dest('./public'));
+    gulp.src('./images/*')
+    .pipe(gulp.dest('./public/images/'));
 });
 
-gulp.task('default', ['less', 'markdown']);
+gulp.task('default', ['less', 'copy']);

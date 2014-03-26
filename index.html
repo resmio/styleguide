@@ -8,21 +8,39 @@
                 <h1>resmio style guide <small>Have you used the styleguide today?</small></h1>
             </div>
 
-            <h3>Containers</h3>
+            <h3>Content containers</h3>
 
-            <h4>Container without padding</h4>
+            <blockquote>Content containers is the default container for content.</blockquote>
+
+            <h5>Without padding</h5>
             <div class="row">
                 <div class="col-md-6">
-                    <pre>&lt;div class="resmio-content"&gt;&lt;/div&gt;</pre>
+                    <xmp>
+<div class="resmio-content">
+    <div class="resmio-content-section">
+        I am a kitten.
+    </div>
+    <img src="images/kitten.jpg" style="width: 100%;" />
+    <div class="resmio-content-section">
+        And I am cute.
+    </div>
+</div>
+                    </xmp>
                 </div>
                 <div class="col-md-6">
                     <div class="resmio-content">
-                        This is a content container.
+                        <div class="resmio-content-section">
+                            I am a kitten.
+                        </div>
+                        <img src="images/kitten.jpg" style="width: 100%;" />
+                        <div class="resmio-content-section">
+                            And I am cute.
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <h4>Container with padding</h4>
+            <h5>With padding</h5>
             <div class="row">
                 <div class="col-md-6">
                     <pre>&lt;div class="resmio-content-padded"&gt;&lt;/div&gt;</pre>
@@ -33,7 +51,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </body>
 </html>
