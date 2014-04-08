@@ -1,6 +1,87 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 @import "resmio.less";
 
+@resmio-blue: #00abc4;
+@resmio-green: #44bda4;
+@resmio-purple: #4d4ea1;
+@resmio-orange: #f7be57;
+@resmio-red: #ed3959;
+@resmio-text: #333333;
+@resmio-text-alt: #FFFFFF;
+@resmio-text-muted: #777777;
+@resmio-link: #428BCA;
+@resmio-link-hov: #428BCA;
+
 body {
-    background-color: #eee;
+  background-color: #eee;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.main-container {
+  height: 1500px;
+  position: relative;
+}
+
+.sticky-sidebar-wrapper {
+  // bottom: 90px;
+  // left: 0px;
+  padding: 24px 0 0;
+  position: absolute;
+  top: 50;
+  width: 185px;
+}
+
+#color-palette {
+  text-shadow: 1px 1px rgba(255,255,255,0.75);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.color-col {
+  border: 1px solid #DDDDDD;
+}
+#resmio-blue {
+  background-color: @resmio-blue;
+}
+#resmio-green {
+  background-color: @resmio-green;
+}
+#resmio-purple {
+  background-color: @resmio-purple;
+}
+#resmio-orange {
+  background-color: @resmio-orange;
+}
+#resmio-red {
+  background-color: @resmio-red;
+}
+#resmio-text {
+  color: @resmio-text;
+}
+#resmio-text-alt {
+  color: @resmio-text-alt;
+  background-color: black;
+  text-shadow: none;
+}
+#resmio-text-muted {
+  color: @resmio-text-muted;
+}
+#resmio-link {
+  color: @resmio-link;
+}
+#resmio-link-hov {
+  color: @resmio-link-hov;
 }
